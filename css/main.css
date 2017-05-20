@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    font-family: 'Droid Sans', 'Noto Sans', 'Oswald', sans-serif;
+}
+
+p,
+a {
+    font-size: 14px;
+}
+
+#personal {
+    padding: 30px;
+}
+
+#logo {
+    width: 20%;
+    padding: 10px;
+}
