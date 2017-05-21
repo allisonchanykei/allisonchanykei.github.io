@@ -1,11 +1,20 @@
 body {
     text-align: center;
     font-family: 'Droid Sans', 'Noto Sans', 'Oswald', sans-serif;
+    background: url("../img/background.jpg") center;
 }
 
-p,
+h1 {
+    font-size: 30px;
+}
+
 a {
-    font-size: 14px;
+    font-size: 20px;
+    color: black;
+}
+
+a:hover {
+    color: grey;
 }
 
 #personal {
