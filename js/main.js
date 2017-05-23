@@ -1,6 +1,7 @@
 $(document).ready(function() {
     var company = getQueryVariable("company");
-    if (company) {
+    var showLetter = 0 != $('#select-box option[value=' + company + ']').length;
+    if (showLetter) {
         $("#CoverLetter").prop("href", "./doc/CoverLetter/" + company + ".pdf");
         $("#CoverLetter").show();
     } else {
