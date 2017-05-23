@@ -1,7 +1,7 @@
 $(document).ready(function() {
     var company = getQueryVariable("company");
     if (company) {
-        $("#CoverLetter").prop("href", "./doc/CoverLetter/" + company);
+        $("#CoverLetter").prop("href", "./doc/CoverLetter/" + company + ".pdf");
         $("#CoverLetter").show();
     } else {
         $("#no-comp").show();
