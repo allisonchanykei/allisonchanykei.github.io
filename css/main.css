@@ -1,7 +1,6 @@
 body {
     text-align: center;
     font-family: 'Droid Sans', 'Noto Sans', 'Oswald', sans-serif;
-    background: url("../img/background.jpg") center;
 }
 
 h1 {
@@ -9,8 +8,22 @@ h1 {
 }
 
 a {
-    font-size: 20px;
+    font-size: 15px;
     color: black;
+}
+
+.btn {
+    margin: 5px;
+}
+
+#chooseCompany {
+    background-color: #55ddff !important;
+    color: black;
+    border: none;
+}
+
+#chooseCompany:hover {
+    background-color: lightblue !important;
 }
 
 a:hover {
@@ -18,10 +31,17 @@ a:hover {
 }
 
 #personal {
-    padding: 30px;
+    padding-top: 30px;
 }
 
 #logo {
     width: 20%;
     padding: 10px;
 }
+
+#selectCompany {
+    width: 200px;
+    display: initial;
+}
+
+@media(max-width:768px) {}

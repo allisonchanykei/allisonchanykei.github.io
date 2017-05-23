@@ -24,36 +24,32 @@
         <div id="personal">
             <img id="logo" src="./img/icon.png" />
             <h1>Allison Chan</h1>
-            <h3>University of Waterloo - Mechatronics Engineering</h3>
         </div>
-        <div id="profolio" class="row">
-            <a href="https://www.linkedin.com/in/allisonchanykei/"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
-            <a href=" https://github.com/allisonchanykei "><i class="fa fa-github-square fa-3x " aria-hidden="true "></i></a>
-        </div>
-        <button type="button " class="btn btn-default" data-toggle="modal" data-target="#myModal">Resume</button>
-
-
-        <!-- Modal -->
-        <div id="myModal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Modal Header</h4>
-                    </div>
-                    <div class="modal-body">
-                        <iframe src="./doc/Allison_Chan_Resume.pdf" style="width:100%"></iframe>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-
+        <a class="btn btn-default" href="./doc/Allison_Chan_Resume.pdf/" target="_blank">Resume</a>
+        <div>
+            <a class="btn btn-default" style="display:none" id="CoverLetter" target="_blank">Letter</a>
+            <div id="profolio" class="row">
+                <a href="https://www.linkedin.com/in/allisonchanykei/" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+                <a href=" https://github.com/allisonchanykei" target="_blank"><i class="fa fa-github-square fa-3x " aria-hidden="true "></i></a>
+            </div>
+            <div id="no-comp" style="display:none">
+                <p>Are you from any of the following companies?</p>
+                <select id="selectCompany" class="form-control">
+                    <option value="">Please select</option>
+                    <option value="amazon">Amazon</option>
+                    <option value="azana">Azana</option>
+                    <option value="google">Google</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="microsoft">Microsoft</option>
+                    <option value="whatsapp">Whatsapp</option>
+                    <option value="yext">Yext</option>
+                </select>
+                <br />
+                <button type="button" id="chooseCompany" class="btn btn-success" style="display:none">Go!</button>
             </div>
         </div>
-    </div>
+
+        <div>
 </body>
 
 </html>
