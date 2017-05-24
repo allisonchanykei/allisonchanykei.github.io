@@ -39,6 +39,12 @@ a:hover {
     padding: 10px;
 }
 
+#comp {
+    width: 350px;
+    margin: auto;
+    text-align: left;
+}
+
 #selectCompany {
     width: 200px;
     display: initial;
@@ -46,4 +52,10 @@ a:hover {
 
 #no-comp {
     padding: 20px;
+}
+
+@media(max-width:768px) {
+    #comp {
+        width: 80%;
+    }
 }
