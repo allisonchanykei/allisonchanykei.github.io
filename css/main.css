@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    font-family: 'Droid Sans', 'Noto Sans', 'Oswald', sans-serif;
+    font-family: "Droid Sans", "Noto Sans", "Oswald", sans-serif;
 }
 
 h1 {
@@ -16,14 +16,10 @@ a {
     margin: 5px;
 }
 
-#chooseCompany {
+#showMessage {
     background-color: #55ddff !important;
     color: black;
     border: none;
-}
-
-#chooseCompany:hover {
-    background-color: lightblue !important;
 }
 
 a:hover {
@@ -31,12 +27,11 @@ a:hover {
 }
 
 #personal {
-    padding-top: 20px;
+    padding: 20px;
 }
 
 #logo {
     width: 250px;
-    padding: 10px;
 }
 
 #comp {
@@ -45,16 +40,7 @@ a:hover {
     text-align: left;
 }
 
-#selectCompany {
-    width: 200px;
-    display: initial;
-}
-
-#no-comp {
-    padding: 20px;
-}
-
-@media(max-width:768px) {
+@media (max-width: 768px) {
     #comp {
         width: 80%;
     }
